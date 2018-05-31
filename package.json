@@ -1,0 +1,24 @@
+{
+  "name": "vue-component-marker",
+  "version": "0.1.0",
+  "description": "mark ComponentOptions object to enable ThisType inference",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc index.ts --outDir dist --declaration"
+  },
+  "keywords": [
+    "Vue",
+    "TypeScript"
+  ],
+  "author": "Iwata Hidetaka",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.8.4",
+    "vue": "^2.5.16"
+  },
+  "peerDependencies": {
+    "typescript": "^2.8.4"
+  }
+}
