@@ -23,6 +23,6 @@
     "vue": "^2.5.16"
   },
   "peerDependencies": {
-    "typescript": "^2.8.4"
+    "typescript": "^2.4.2"
   }
 }
